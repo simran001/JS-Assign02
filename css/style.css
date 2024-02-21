@@ -1,0 +1,99 @@
+/* Resetting some default styles for better consistency */
+body, h1, p, div, label, button, select, input, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f5f5f5; 
+    color: #333; 
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Styling for container divs */
+div {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+/* Styling for the custom number input */
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 20%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the custom color buttons */
+button {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.custColor {
+    background-color: #734f96; 
+    color: white;
+}
+
+
+
+.randColor {
+    background-color: #734f96; 
+    color: white;
+    margin-left: 10px;
+}
+
+
+/* Styling for the image selection */
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the image */
+img {
+    max-width: 100%;
+    height: 400px; /* Set a fixed height for the images */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    opacity: 0.8;
+}
